@@ -1,4 +1,4 @@
-# coding: utf-8
+﻿# coding: utf-8
 
 '''
 演習課題「おみくじを作ろう」
@@ -29,3 +29,10 @@ line = input().rstrip()
 # リストの要素数を変数に代入
 # リストの中身を出力
 # ランダムに選んだリストの要素を出力
+
+
+
+omikuji=line.stlip(",")
+num=len(omikuji)
+print(omikuji)
+print(omikuji[random.randrange(num)])
